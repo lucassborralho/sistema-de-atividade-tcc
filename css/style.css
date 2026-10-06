@@ -1,0 +1,37 @@
+	/*
+Importa o template "slate" do bootswatch.
+Para mudar, trocar "slate" para algum outro como quartz, solar, vapor, etc.
+Disponível em   https://bootswatch.com
+*/
+	/* @import url("https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/sketchy/bootstrap.min.css"); */
+
+
+	:root {
+	    --imagem-de-fundo: url("2148587586.jpg");
+	    --titulo-grande: 3em;
+	    --bs-red: #f56565;
+	}
+
+	h1 {
+	    font-size: var(--titulo-grande);
+	    color: #f56565
+	}
+
+	body {
+	    background: var(--imagem-de-fundo);
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: center center;
+	    background-attachment: fixed;
+	    min-height: 100%;
+	}
+
+	.vidro {
+	    /* From https://css.glass */
+	    background: rgba(255, 255, 255, 0.16);
+	    border-radius: 16px;
+	    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	    backdrop-filter: blur(3.9px);
+	    -webkit-backdrop-filter: blur(3.9px);
+	    border: 1px solid rgba(255, 255, 255, 0.01);
+	}
